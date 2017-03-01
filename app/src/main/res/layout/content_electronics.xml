@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Electronics"
+    tools:showIn="@layout/activity_electronics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="How are we doing in the electronics field as opposed to, you know, we hear how advanced the Japanese are? Do you think we`re still pretty competitive? Oh, yes.
+A contest that consist of different sections, carrying its individual credits.
+Part-I:- Run a given circuit on the given platform &amp; record the results to be calculated which is of 40 marks.
+Patr-II:- QUIZ on various topics which is of 30 marks.
+
+Part-III:- Innovative section. Here, the response of a system &amp; other required parameters will be given. Teams have to design the circuit. Closer the answer, greater the marks they will be awarded. This section consists of 30 marks.The overall contest will be of 3 hours."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: WILL BE ECLARED AFTER FIRST ROUND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * Teams should enroll with at most 3 members.
+\n* The participants should have basic knowledge of electronics and circuits.
+\n* The platform on which the circuits to be simulated will be TINA.
+\n* Decision of the coordinators will be final.
+\n* Paper &amp; all necessary requisites will be provided. Teams should carry only pens &amp; calculators.
+\n* Teams may consist of members from different disciplines &amp; different batches. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="ROUNDS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:text="ROUND 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * This round will have 20 objective questions. Time limit is 15 minutes.
+\n* Each question will have 4 options out of which only one option is correct.
+\n* Each question is of 1 mark. No negative marking.
+\n* Total marks-20."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:text="ROUND 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * This round will have 15 numerical questions. Time limit is 30 minutes.
+\n* Each question will have 4 options out of which only one option is correct.
+\n* Each question is of 2 marks. And for 3 wrong answers 2 marks will be deducted. No negative marking for unanswered questions.
+\n* Total marks-30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:text="ROUND 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" *  Three circuits will be given which needs to be simulated using TINA software. Time limit is 2 hrs.
+\n* Total marks- 50 (10+20+20).
+\n* Closer the answer greater the marks they will be allotted. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="N.B: PEOPLE WHO WILL QUALIFY THE SECOND ROUND WILL BE BRIEFED ABOUT TINA SOFTWARE FOR ‘THE FINAL HURDLE’ ROUND. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: 50 per team of 3 or less"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="MEENAKSHI BANERJEE 7890346771"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

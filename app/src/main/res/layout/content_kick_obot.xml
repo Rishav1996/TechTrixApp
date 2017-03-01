@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:background="@color/backColor"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.KickOBot"
+    tools:showIn="@layout/activity_kick_obot">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="Kolkata is a soccer lover.
+But can you kick with your bot instead of your leg??
+Let's see whether you are an attacker or a defender."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:text="PRIZE: CASH PRIZE OF ₹7000 + GOODIES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="General Rules\nSingles (One on One)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * The game will start at the count of 3 given by referee followed by whistle. In case a team starts its robot before the whistle, the game will be restarted and a team making this mistake for more than 3 times will be disqualified.\n
+* Each team will have to defend the goal on its side as well as score the goal on the opposite side.\n
+* Each team can have a maximum of 5 team members.\n
+* The ball can be either dragged or pushed by the team. But cannot have any holding or gripping mechanism.\n
+* One half-length will be 3 minutes.\n
+* Maximum 3 members per team will be allowed to remain close to field for operating the robots.\n
+* In case of jam up of robots for more than 30 seconds the robots will have to kick-off again at the order of the referee.\n
+* In case of any discrepancy the final decision rests in the hands of coordinators.\n
+* Any act of misbehavior or misconduct will lead to immediate disqualification of the team.\n
+* The robots are not allowed to use grippers or actuations which are intended to harm the opponent’s robot.\n
+* Any type of war or destructive mechanisms are not allowed."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:text="Doubles (Two on Two)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * Offside Rule: If the Striker Bot of a team crosses the offside line without ball and gets the ball from the goalkeeper Bot of its team while opponent’s goalkeeper bot is before offside line it will be considered as an offside. In case of an offside the team cannot move for 5 sec and they have to make a wall before their offside line. And opponent will get a 5 sec free move to score a goal. Freeze breaks with a whistle by the referee.\n
+* Goalkeeper Rule: Goalkeeper cannot cross the center line with or without a ball. Goalkeeper of a team is fixed for a particular half. If broken they will be shown yellow cards. 2 yellow cards leads to one red card. And the goalkeeper has to leave the ground immediately.\n
+* The game will start at the count of 3 given by referee followed by whistle. In case a team starts its robot before the whistle, the game will be restarted and a team making this mistake for more than 3 times will be disqualified.\n
+* Each team will have to defend the goal on its side as well as score the goal on the opposite side.\n
+* Each team have to control two robots. One will be fixed as a goal keeper and cannot cross the center line.\n
+* Each team can have a maximum of 6 team members.\n
+* The ball can be either dragged or pushed by the team. But cannot have any holding or gripping mechanism.\n
+* One half-length will be 3 minutes.\n
+* Maximum 3 members per team will be allowed to remain close to field for operating the robots.\n
+* In case of jam up of robots for more than 30 seconds the robots will have to kick-off again at the order of the referee.\n
+* In case of any discrepancy the final decision rests in the hands of coordinators.\n
+* Any act of misbehavior or misconduct will lead to immediate disqualification of the team.\n
+* The robots are not allowed to use grippers or actuations which are intended to harm the opponent’s robot.\n
+* Any type of war or destructive mechanisms are not allowed."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Robot Specification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * The maximum weight of the robot for this competition is 3 Kg (+5%).\n
+* Each robot should not exceed by maximum 30 cm x 30 cm x 30 cm.\n
+* A robot can extended to a dimension of 35 cm x 30 cm x 30 cm maximum (independently) once it crosses the start zone for some kicking mechanism\n
+* The voltage at any point on the electrical connections should not exceed 12 V DC."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:textColor="@color/textColor"
+            android:src="@drawable/kickobotarena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹150 (per team of 5 or less)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="ANKUR 8292381567\n
+HRISHAV 8017735404"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Battlefield"
+    tools:showIn="@layout/activity_battlefield">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="War is the father of us all, King of all. Some it makes gods, some it makes men, some it makes slaves, some free
+Build a bot which can fight the odds and become winner."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: CASH PRIZE OF ₹15,000 + GOODIES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:text="EVENT'S RULE:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:text="ROBOTICS GENERAL RULES:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * Destruction is allowed.\n
+\n* If the bot specifications are changed after registration or at any point of the event, participants are liable to be disqualified without any refund.\n
+\n* Intentional wire cutting not allowed. This will lead to instant disqualification and the other team will be declared winners.\n
+\n* Winners will be decided via point system. Team with highest point at the end of match wins. If one team cannot compete, then the opponent team automatically wins. In that case points, will not be considered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:text="1st Round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * Teams will be divided into groups of three. Each team will have to face each other once, i.e. 2 matches for each team.\n
+\n* After completion of group stages, teams with highest and second highest points from each group will be elevated to the next stages."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="2nd Round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * From 2nd round onwards, all matches will be played on a one on one basis and the winner of each match will be moved on to the next level.\n
+\n* Last man standing or Bot with highest points will be the winner of the respective matches."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="POINT SYSTEM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:text="Immobilize Rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:text="If a bot is immobilized, a countdown of 10 seconds will start. After that, the bot which caused the immobilization should be able to pull out of the immobilize hold. If he fails to do so, another count down of 10 seconds will start. If the bot fails to move out, both of the bots will be awarded equal points. If at any time both of the bots are immobilized, separate concurrent 10 second countdowns will be carried out for each bot; failing to react within the 10 seconds will award the opponent with points. Point for immobilization-> 200pts."
+            android:layout_width="match_parent"
+            android:textColor="@color/textColor"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:text="Destruction Rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="If a bot is able to successfully break of its opponent’s parts, it will be regarded under the destruction clause. Please note a successful destruction will only be considered when an entire part such as a wheel or a motor will be broken off. Destroying just parts of the Armor will not count as destruction. Again, a part will be considered to have been broken off by a bot if it breaks of after a strike and not by callousness of the owner. Intentional cutting of power supply of the opponent will lead to immediate disqualification. In this case the question of intentionality will be decided by the event coordinator present at the arena and no further claims or acquisitions will be entertained. Points for destruction-> 200pts."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:text="Ditch Rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="If a bot is thrown into the ditch at the center by an opponent, the opponent is awarded points. If a bot throws itself into the ditch, the owner gets a deduction of points. A bot will be considered to have been in the ditch if it is more than 80% inside it. If both of the bots are thrown inside the ditch, no one is awarded points. Points for ditch->300pts."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:text="Technical Timeout "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="One (1) technical time out of 5 mins is allowed without any penalty. After that two more-technical time outs will be allowed for 2.5 minutes each. The participant can choose when to take which technical time out. That is, he may choose to take the penalty technical time out first if he so wishes. During the technical time-out, the opponent will not be awarded any points. Points for technical time out->-100pts. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:text="Robot Specification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * The robot dimensions should not exceed 45cm X 45cm X 45cm with tolerance (50cm x 50cm 50cm).\n
+\n* Maximum weight of the robot should not exceed 22kgs(with tolerance).\n
+\n* The robot can be powered on board or off.\n
+\n* The potential difference between any two electrical points on the robot must not exceed 24 volts throughout the run.\n
+\n* The minimum length of the wires used for power supply should be around 7 m.\n
+\n* AC motors are strictly forbidden.\n
+\n* Flamethrowers are forbidden. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:text="Arena Specification "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="* L X B = 12 ft. X 12 ft \n
+   * H = 1.5 ft. \n
+   * All round cage 3 ft. \n
+   * Pit in middle with 4 ft. X 4 ft. \n
+   * Depth of pit 1.5 ft. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/battefieldarena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹400 (per team of 5 or less)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="phone"
+            android:textColor="@color/textColor"
+            android:text="ARVIND AGRAWAL 9051570026\n
+ABHINAV TARWAY\n
+HIMADRI BISWAS 8296009994\n
+BARUN SINGH PARMAR 8348591468"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

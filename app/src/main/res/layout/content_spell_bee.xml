@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.SpellBee"
+    tools:showIn="@layout/activity_spell_bee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="If you can spell `Nietzsche` without Google, you deserve a cookie. (Lauren Lato)
+            Knowing what comes before what, can often make you successfull."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZES WORTH ₹ 800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * It is a single player event.
+\n* Any school or college student is eligible to participate.
+\n* Each and every student must bring their ID-Cards which is mandatory.
+\n* A nominal registration fee of Rs. 30/- is required to participate.
+\n* Each and everyone needs to bring his/her own pen (no pencils allowed). Sheets will be provided by us.
+\n* No overwriting is allowed. It will lead to disqualification.
+\n* Each word would be announced a maximum of 3 times. If asked, the meaning of the word would be specified.
+\n* For each right spelling +2 marks would be awarded and for every wrong spelling -1 marks would be awarded.
+\n* Top 2 students will be awarded with the prize.
+\n* In case of a tie, a tie-breaker round will be conducted in which both the contestants will need to solve 15 jumbled up words in 5 minutes. The one solving the maximum words will be adjudged the winner.
+\n* Anyone adopting any sort of unfair means would be immediately disqualified.
+\n* Rules are subject to modification based on circumstances."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹30 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 27th February (Monday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="DEBANJANA GHOSH 8981246347"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

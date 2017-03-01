@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.CSGlobalOffensive"
+    tools:showIn="@layout/activity_csglobal_offensive">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="A true champion, face to face with his darkest hour, will do whatever it takes to rise above. A man fights, and fights, and then fights some more. Because surrender is death and death is not for winners. \n \n * THE GAME WILL BE PLAYED ON MACHINE SETUPS WITH 17 INCH MONITOR, KEYBOARD, AND CPU. ALL BROUGHT FROM RENOWNED PLACES OF KOLKATA. YOU ARE ALLOWED TO BRING YOUR OWN MOUSE, KEYBOARD AND HEADSET* \n "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: CASH PRIZE OF ₹12,000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="GENERAL RULES:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * The software used is Counter-Strike: Global Offensive Beta (Steam Version)\n
+\n* It is a 5 (Five) Player team tournament.\n
+\n* Each team member must use the exact same team abbreviation (Clan Tag).\n
+\n* Each person attending the tournament must have read and accepted the rules and regulations. Ignoring it cannot be a reason put forward in case of an issue or dispute.\n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="GAME RULES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * Rounds: 30 (Thirty) Rounds (Max Rounds 15 (Fifteen) Format) – 15 (Fifteen) Rounds as Terrorists and 15 (Fifteen) Rounds as Counter-Terrorists per team\n
+\n* Victory Condition: The first team to win 16 (Sixteen) rounds. (If a team scores 16(Sixteen) Rounds first, the match is ended immediately.)\n
+\n* Round Time: 1:45 Minutes\n
+\n* The team playing as the Terrorist side first will be announced before the match or decided by coin toss.\n
+\n* In the case of a tie after the regulation rounds end, 6 (six) extra rounds will be played. (3 (Three) Rounds as Terrorists / 3 (Three) Rounds as Counter-Terrorists per team). Victory condition is the first team to win 4 (four) rounds. (If a team scores 4 (four) rounds first, the match is ended immediately.)\n
+\n* Extra Round restart money: $10,000\n
+\n* In the case of yet another tie after the 6 (Six) extra Rounds, as stated above, 6 (Six) additional extra Rounds will be played until the tie is broken\n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:text="MAP SELECTION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Prior to each match the Team Captains of the facing teams meets up with their Referee. Map will be eliminated in turns by coin toss. The remaining map is the one that will be played.\r\n\uF0B7 Maps may also be randomly set for each match, during the double elimination phase."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:text="MAP POOL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="De_dust2
+de_nuke
+de_cache
+de_train
+de_mirage
+de_cobblestone
+de_overpass "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:text="FAIR PLAY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="It is forbidden to insult, abuse or manhandle a Player or a Referee, or do damage to property that belong to others.\r\n\uF0B7 It is forbidden to do damage the property of the sponsors and partners of the tournament/ event.\r\uF0B7 The notion of fair play is up to the Referee's assessment.\r\n\uF0B7 Lack of fair play can lead to penalties.\r\n\uF0B7 In order to secure a pleasant course of game, we encourage all players to show a sportsmanlike and\r\nfair conduct. \r\n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:text="PENALTIES AND DISQUALIFICATION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="If rules are broken, Tournament Referees may apply penalties according to their
+ judgment and discretion.
+\n* Disqualifications are applied by the tournament officials, be it the referees or
+ tournament organizers.
+\n* Penalties that can be applied are the following:
+1. Warning.
+2. 3 (Three) Round loss or more.
+3. Default loss.
+4. Banning a player/team from the venue.
+5. Disqualification of a player/team from the entire tournament."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:text="CHEATING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="No 3rd party program or any trace of scripts will be allowed. This includes personal map textures and
+player exploits. It will be considered a violation of the rules and will be sanctioned as mentioned
+earlier in penalties and disqualification point.
+\n* Players are responsible for their actions in regards to known map or game bugs/exploits. Any Player
+or Team utilizing ANY exploit or bug in a map or game,
+unintentional or otherwise, will be sanctioned as mentioned earlier in penalties and disqualification
+point.
+\n* Any tampering with computer hardware or software, including but not limited to intentional crashing
+of software and illegal modification of hardware or software configurations will be sanctioned as
+mentioned earlier in penalties and disqualification point."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹800 (per team of 5 or less)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="phone"
+            android:text="ANIK 8296717518"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

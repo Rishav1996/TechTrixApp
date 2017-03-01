@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191500"
+    tools:context="techtrix.example.com.techtrix.SplashScreen">
+    <LinearLayout
+        android:id="@+id/splashlinear"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="200dp">
+        <ImageView
+            android:src="@drawable/techlogo"
+            android:id="@+id/splashlogo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    <!--VideoView
+        android:layout_centerInParent="true"
+        android:id="@+id/splashlogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp" /-->
+    </LinearLayout>
+    <TextView
+        android:id="@+id/splashhead"
+        android:text="TechTrix\'17"
+        android:layout_above="@id/splashlinear"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/textColor"
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/splashlinear"
+        android:paddingLeft="50dp"
+        android:id="@+id/splashquote"
+        android:paddingRight="50dp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:text="into the next dimension"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/splashname"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/splashquote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:text="tech"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="3dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:text="trix"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

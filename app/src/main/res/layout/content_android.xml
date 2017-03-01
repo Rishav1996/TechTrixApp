@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:background="#2f2f2f"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Android"
+    tools:showIn="@layout/activity_android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Android is the most popular operating system of the world. So, being able to develop app for such platform will give you an edge in world of app development. Our workshop in an association with Robokart and Innovation Cell, IIT Bombay. It will help you in getting started with Android app development. At the end of the workshop we can assure that you will have enough knowledge to build the app you are using now :)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Workshop DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:text="REGISTRATION LINK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:padding="10dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bit.ly/2jWMKin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:text="DATE : 20th-21st February"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:text="REGISTRATION FEE: ₹600 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

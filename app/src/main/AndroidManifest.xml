@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="techtrix.example.com.techtrix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CodeActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".GameActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".GeeksActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".GuestLecturesActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".KaleidoscopeActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".OutOfTheBoxActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".RobotActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".WorkshopActivity"
+            android:theme="@style/AppTheme.transparent" />
+        <activity
+            android:name=".TrackOBot"
+            android:label="@string/title_activity_track_obot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KickOBot"
+            android:label="@string/title_activity_kick_obot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpringOBot"
+            android:label="@string/title_activity_spring_obot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Transporter"
+            android:label="@string/title_activity_transporter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Battlefield"
+            android:label="@string/title_activity_battlefield"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BugsFunny"
+            android:label="@string/title_activity_bugs_funny"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Fillin"
+            android:label="@string/title_activity_fillin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Electronics"
+            android:label="@string/title_activity_electronics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Logia"
+            android:label="@string/title_activity_logia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CounterStrike"
+            android:label="@string/title_activity_counter_strike"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CSGlobalOffensive"
+            android:label="@string/title_activity_csglobal_offensive"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MiniMilitia"
+            android:label="@string/title_activity_mini_militia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClashOfClans"
+            android:label="@string/title_activity_clash_of_clans"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DOTA"
+            android:label="@string/title_activity_dot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FIFA"
+            android:label="@string/title_activity_fif"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NFS"
+            android:label="@string/title_activity_nfs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Android"
+            android:label="@string/title_activity_android"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".iot"
+            android:label="@string/title_activity_iot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BipedRobotics"
+            android:label="@string/title_activity_biped_robotics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Antakshari"
+            android:label="@string/title_activity_antakshari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BegBorrowSteal"
+            android:label="@string/title_activity_beg_borrow_steal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MinuteToWinIt"
+            android:label="@string/title_activity_minute_to_win_it"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OneShot"
+            android:label="@string/title_activity_one_shot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TreasureHunt"
+            android:label="@string/title_activity_treasure_hunt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BehindTheLens"
+            android:label="@string/title_activity_behind_the_lens"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DirectorsCut"
+            android:label="@string/title_activity_directors_cut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Canvas"
+            android:label="@string/title_activity_canvas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Impact"
+            android:label="@string/title_activity_impact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogoDesigning"
+            android:label="@string/title_activity_logo_designing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TShirtPainting"
+            android:label="@string/title_activity_tshirt_painting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BizTech"
+            android:label="@string/title_activity_biz_tech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MatheMagic"
+            android:label="@string/title_activity_mathe_magic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuestionMark"
+            android:label="@string/title_activity_question_mark"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpellBee"
+            android:label="@string/title_activity_spell_bee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sudoku"
+            android:label="@string/title_activity_sudoku"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Verbose"
+            android:label="@string/title_activity_verbose"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".FirebaseService"
+            android:enabled="true" />
+
+        <receiver android:name=".BackGroundService">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.MatheMagic"
+    tools:showIn="@layout/activity_mathe_magic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="I assure you my difficulties are greater
+            Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: CASH PRIZE OF ₹800"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="General Rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * It is a single player event.
+\n* Only school and college students are allowed to participate.
+\n* Each and every student must bring their ID-Cards which is mandatory.
+\n* A nominal registration fee of Rs. 30/- is required to participate.
+\n* Each and everyone needs to bring his/her own pen (no pencils allowed).
+\n* It will be a 2 round event.
+\n* Both rounds will be offline.
+\n* No scribbling/ scratching is allowed. Once an answer is marked, it’s final.
+\n* Space for rough work would be provided.
+\n* No calculators are allowed.
+\n* Top 10 students of the 1st round will qualify for the 2nd round.
+\n* Anyone adopting any sort of unfair means would be immediately disqualified.
+\n* Rules are subject to modification based on circumstances."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Round 1 rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * It will consist of 30 MCQs based on general numerical aptitude.
+\n* It is a 30 minutes round.
+\n* +2 marks will be awarded for each correct answer and -1 for each wrong answer.
+\n* Top 10 students will qualify for the next round."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Round 2 rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * It will consist of 45 MCQs based on general numerical aptitude.
+\n* It is a 30 minutes round.
+\n* +2 marks will be awarded for each correct answer and -0.5 for each wrong answer.
+\n* Top 2 students will be awarded the prizes.
+\n* In case of a tie, both the students will be required to solve 10 numerical MCQs in 5 minutes with +2 marks for correct answers and -2 for wrong answers.
+\n* Whoever scores the maximum will be adjudged the winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹30 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 26th February (Sunday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="TANUSHREE SAHA 8981273920\n
+SHUBHAM KUMAR 8240191943"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

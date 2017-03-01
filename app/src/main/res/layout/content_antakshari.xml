@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Antakshari"
+    tools:showIn="@layout/activity_antakshari">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="Everything I learned, I learned from the movies (Audrey Hepburn)
+Calling all Chandu ke Chachas and Chandu ke Chachis, all Veerus and Basantis and all Alka Yagniks and Bappi-das! If Bollywood runs deep in your veins and you have heard everything from 'Pyaar hua ikraar hua' to 'Tukur-Tukur', then ANTAKSHARI is the place for you!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZES WORTH ₹ 1,500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * The qualifying round of Antakshari will consist of four rounds:\n
+     ** Dumb Charades\n
+     ** Audio round 1 (transferable)\n
+     ** Audio round 2 (transerable)\n
+     ** Visual round (transferable)\n
+\n * 2 teams with the highest scores, will be selected from each qualifier, who will go on to compete in the semifinals. The semifinals will have 5 rounds of play i.e. 4 qualifier rounds and 1 surprise round. The finalists will then play in the final game of Antakshari, which will consist of 6 rounds i.e 4 qualifier rounds and 2 surprise rounds.\n
+\n * Two of the highest scoring teams will be awarded as the Winner and 1st Runner up of Antakshari. Rules:\n
+     ** Every Antakshari team must consist of 2 members.\n
+     ** Decision of Panel will be final and irrefutable.\n
+     ** Tie breaker at any deciding round will be resolved by a special round, at the discretion of the panel.\n
+     ** Any foul play will result in expulsion of the team.\n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: 40 per team of 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="DEBASHRUTI 9477588826\n
+AYUSHI\n
+BIJOY\n
+MOULI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

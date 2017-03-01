@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Sudoku"
+    tools:showIn="@layout/activity_sudoku">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Life is like Sudoku. If you dont know why you chose that number, its gonna be a mess later"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZES WORTH ₹ 500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="general rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:text=" * It is a single player event.
+\n* Any school or college student is eligible to participate.
+\n* It will be a 2 round event.
+\n* Each and every student must bring their ID-Cards which is mandatory.
+\n* A nominal registration fee of Rs. 30/- is required to participate.
+\n* Each and everyone needs to bring his/her own pen (no pencils allowed).
+\n* No overwriting/scribbling/scratching is allowed. It will lead to disqualification.
+\n* Rough work needs to be done only in the space provided.
+\n* Top 10 students of the first round will qualify for the second round.
+\n* Rules are subject to modification based on circumstances."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Round 1 rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:text=" * 15 minutes will be provided for this round.
+\n* It will consist of a single classic Sudoku puzzle. Fill in the grid so that every row, column, and 3x3 box contains the digits 1 through 9.
+\n* Top 10 students who finish out first while complying with all the rules and correct solutions will qualify to the next round."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Round 2 rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:text=" * Round 1 results will have no effect on round 2 results.
+\n* 30 minutes will be provided for this round.
+\n* It will consist of 2classic Sudoku puzzles. Fill in the grid so that every row, column, and 3x3 box contains the digits 1 through 9.
+\n* Top 3 students who finish out first while complying with all the rules and correct solutions will beawarded."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹30 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 26th February (Sunday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:padding="5dp"
+            android:text="SHUBHAM KUMAR 8240191943\n
+TANUSHREE SAHA 8981273920"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

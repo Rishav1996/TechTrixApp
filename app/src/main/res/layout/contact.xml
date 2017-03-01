@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backColor"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content_contact"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Robotics"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:id="@+id/call1"
+            android:onClick="tapToCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Coding"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:id="@+id/call2"
+            android:onClick="tapToCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Gaming"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/call3"
+            android:onClick="tapToCall"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Geeks"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/call4"
+            android:onClick="tapToCall"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Kaleidoscope"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:id="@+id/call5"
+            android:onClick="tapToCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Out of the Box"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:id="@+id/call6"
+            android:onClick="tapToCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="Technical Secretary"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:layout_weight="2"
+            android:id="@+id/call7"
+            android:onClick="tapToCall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/black"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_weight="8"
+            android:text="General Secretary"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/callicon"
+            android:id="@+id/call8"
+            android:onClick="tapToCall"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

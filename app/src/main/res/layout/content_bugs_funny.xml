@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.BugsFunny"
+    tools:showIn="@layout/activity_bugs_funny">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Debugging is twice as hard as writing the code in the first place. Therefore if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. (Brian Kernighan)
+This is a Debugging contest."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="PRIZE: CASH PRIZE OF 2500 + GOODIES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="General Rules \n \r\n\u25CF This is a debugging contest.\r\n\u25CF The contest will contain three rounds and the code snippets can be provided in C/C++/Java. \n \u25CF A team can consist of minimum TWO members and maximum THREE members.\r\n\u25CF Cross-College teams are allowed.\r\n\u25CF Students who are still in school are not allowed to take part in this event.\r\n\u25CF Each and every student needs to bring his/her ID card which is mandatory.\r\n\u25CF Internet and book access during the event is prohibited. If any participating entity is found indulging in unfair means then the entity will be disqualified from taking part in the event.\r\n\u25CF 1st and 2nd round will be held online.\r\n\u25CF The participating entity has to solve the MCQ questions online according to the rules provided.\r\n\u25CF The 3rd round will be held online.\r\n \n 1st Round \n \n\u25CF There will be 30 MCQ questions which a participating entity has to solve to the best of the ability in 30 minutes.\r\n\u25CF The questions will contain code snippets and theoretical knowledge based question on programming.\r\n\u25CF The participating entity has to choose the correct option among the provided options.\r\n\u25CF Top 10% of the participating entities will qualify for the second round based on the points scored.\r\n\n 2nd Round \n\r\n\u25CF There will be 20 MCQ question of harder level which will require the participating entities to have deeper knowledge in programming. The time limit of this round is 30 minutes.\r\n\u25CF The questions will contain code snippets and theoretical knowledge based questions on programming.\r\n\u25CF The participating entity has to choose the correct option among the provided option.\r\n\u25CF Top10% of the participating entities will qualify for the third round based on the points scored.\r\n \n 3rd Round\n\r\n\u25CF The qualified teams will be provided with a source code containing 10 errors. The errors can be logical, syntactical, semantical or runtime.\r\n\u25CF The team finding and solving all the 10 errors in the least time, or scoring maximum scores based on the scoring system given below, without changing the logic of the program and getting the desired output will be declared as the winner.\r\n\u25CF The maximum time that will be provided for each team will be 30 minutes.\r\n\nPoint System\n \r\n\u25CF For every correctly marked answer in the 1st and 2nd round, the participating entity will be awarded +4 points.\r\n\u25CF For every incorrectly marked answer in the 1st and 2nd round, the participating entity will be awarded -1 points.\r\n\u25CF In the 3rd round, each of the team will be provided with a source code which will contain errors of different types.\r\n\u25CF Syntactical errors will be easier to find out; hence a participating entity will\r\nbe provided with +10 for each syntactical error found.\r\n\u25CF Semantic errors will be harder to find out; hence a participating entity will\r\nbe provided with +20 for each semantic error found.\r\n\u25CF Logical errors will be hardest to find out; hence a participating entity will\r\nbe provided with +50 for each logical error found.\r\n\u25CF Only in case of a draw among the top two teams, the time will be\r\nconsidered. The team taking the least time will be declared as the winner.\r\n\u25CF Each of the participating entity will be provided with the similar kind of source code containing the exact number of syntactical, semantical and logical errors where the number of each error will also be the same to eliminate any bias.\r\n\u25CF In case of a dispute, the decision taken by the coordinating team will be final. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹50 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="SWAROOP ACHARJEE 9674507568"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

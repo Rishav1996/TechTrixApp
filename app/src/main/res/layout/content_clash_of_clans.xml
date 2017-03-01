@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.ClashOfClans"
+    tools:showIn="@layout/activity_clash_of_clans">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Are you short of archers or u need a wizard??
+Love COC?? Just grab your phone and ATTACK...."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE(SINGLES &amp; CLANS): TO BE DECLARED AFTER ROUND 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="SINGLES CLASH RULES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="General Rules: -\r\nThis is a tournament of single players, so you can join alone with your base.\r\nYou need to play friendly challenge against your opponent.\r\nYou can\u2019t scout(view) opponent village.\r\nWith a countdown of 3..2..1..go players challenge each other.\r\nIf a player sees the enemies base he is disqualified.\r\nJudges will watch both attacks in same time.\r\nClash will be held on th8 vs th8 and th9 vs th9.\r\nWinning Rules: -\r\n1. 1st winner decided by stars.\r\n2. If both players end up having equal stars, then we decide as per your attack completion\r\ntime.\r\n3. If completion time is also equal it is a draw, a new match will be started amongst them.\r\n4. If you have 2 draws, the winner is decided by a coin toss.\r\nPrizes:\r\n1. Winners and runner up both TH8 and TH9 will be get gems\r\n2. Entry fees 50/- each player.\r\n3. Re-Entries will be open till 12:00 Noon on Day 2 of Techtrix.\r\nNB:\r\nFor singles tournament, only \u201CTown Hall 8\u201D and \u201CTown Hall 9\u201D matches will be conducted\r\nDon\u2019t get any troops with you "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="CLAN WAR RULES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="1. Friendly challenge from 1 to another clan.
+\n 2. Security reasons co-ordinators of the game will be present in your clan during the war.
+\n 3. If clan request is declined before the scheduled war time then opponent clan will get a
+walkover.
+\n 4. If any member during the war tries to take a snapshot then the clan will be banned from our
+tournament.
+\n 5. Participated clan must open your friendly challenge option.
+\n 6. Now u can choose your favorite members who want to play this tournament and keep correctly
+time for preparation day and battle day.
+\n 7. If you play tornament then must stop ur clan’s global war.(don’t search any type of war).
+\n 8. Atleast one person must be attend in our college.
+\n 9. Challenge must be send ‘1hr’-preparation day and ‘2hr’-battle day.
+\n Requirements :
+\n**Town hall 9(3pcs) ,town hall 8(5pcs),town hall 7(2pcs)[battle with 10 vs 10].
+\n**each clan entry fees 200/-(Re-entry same)
+\n**winners clan and runners clan will be get ‘PRIZE MONEY’ !"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE:(Singles) ₹50 per person, (Clans) ₹300 per team of 10 or less"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:text="Subhajit : 8697503051"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

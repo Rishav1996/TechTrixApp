@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.FIFA"
+    tools:showIn="@layout/activity_fif">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Winners never quit and quitters never win (Vince Lombardi)
+Behind every kick lies a thought... So think before you kick."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: TO BE DECLARED AFTER ROUND 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            android:text="GENERAL RULES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="fifa 11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * All games will be conducted in FIFA ‘11. In lan network system.
+\n* A standard keyboard will be supplied to each participant. The participants are allowed to use their own keyboards/controllers if they wish to.
+\n* Every participant must select their teams at the beginning of the tournament and stick to their team selection. Same team can be picked by different participants.
+\n* If the connection disconnects at X minutes, then the match will be restarted and played for (90-X) minutes. Previous scores will be taken into account.
+\n* Players are permitted a total of 3 player and strategy changes during a match. Players are not allowed to stop the game for strategy change anytime, during throw, corner, foul etc. when the game stops then they are allowed to change.
+\n* The teams’ and players’ abilities cannot be modified arbitrarily.
+\n* Arriving late for a scheduled match may result in a forfeit at the discretion of the admin or the coordinator in charge.
+\n* The admin and coordinators reserve the right to install additional software/updates and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" Format Stage :
+\n* 1 vs. 1 match.
+\n* Fixtures will be decided via random selection by the admins.
+\n* Player scoring maximum goals after 90 minutes wins the match.
+\n* If, after 90 minutes, the game ends in a draw, two extra time periods of 15 minutes each shall be played. If the score remains tied after extra time, penalty kicks will decide the winner. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="fifa 14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" * All games will be conducted in FIFA ‘14.
+\n* A standard keyboard will be supplied to each participant. The participants are allowed to use their own keyboards/controllers if they wish to.
+\n* Every participant must select their teams at the beginning of the tournament and stick to their team selection. Same team can be picked by different participants.
+\n* If the connection disconnects at X minutes, then the match will be restarted and played for (90-X) minutes. Previous scores will be taken into account.
+\n* Players are permitted a total of 3 player and strategy changes during a match.Players are not allowed to stop the game for strategy change anytime, during throw, corner, foul etc. when the game stops then they are allowed to change.
+\n* The teams’ and players’ abilities cannot be modified arbitrarily.
+\n* Arriving late for a scheduled match may result in a forfeit at the discretion of the admin or the coordinator in charge.
+\n* The admin and coordinators reserve the right to install additional software/updates and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data.
+\n* If both the player has different settings then there will be two matches home and away. The game will be played on single machine and multiple gamepad. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text=" Format Stage :
+\n* 1 vs. 1 match.
+\n* Fixtures will be decided via random selection by the admins.
+\n* Player scoring maximum goals after 90 minutes wins the match.
+\n* If, after 90 minutes, the game ends in a draw, two extra time periods of 15 minutes each shall be played. If the score remains tied after extra time, penalty kicks will decide the winner."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹50 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:text="AMARTYA GHOSH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

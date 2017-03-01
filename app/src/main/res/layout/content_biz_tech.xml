@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.BizTech"
+    tools:showIn="@layout/activity_biz_tech">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:text="It`s black or white. No shades of grey here.
+The wait for the ultimate quizzing extravaganza is over! BizTech – The official Business and Technology Quiz of Techtrix 2016: The famed Biztech Quiz of RCCIIT is backBigger Better Bolder! Calling all the Tech aficionados and Business fanatics: Come\nand experience the thrill and excitement! This Quiz covers business and technology, which is an indispensable part of our lives. This quiz will test you on your knowledge regarding the latest happenings in the world of business and technology."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="PRIZE: CASH PRIZE OF ₹1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+        android:textColor="@color/textColor"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:text="GENERAL RULES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="\u25CF This is a quizzing event based on the general aptitude and awareness about the business arena.\r\n\u25CF The contest will contain two rounds.\r\n\u25CF A team should consist of THREE members or less.\r\n\u25CF Cross-College teams are allowed and school students over 10 th\r standard are allowed to take part.\r\n\u25CF Each and every student needs to bring his/her ID card which is mandatory.\r\n\u25CF Internet and book access during the event is prohibited. If any participating entity is found indulging in unfair means then the entity will\r\nbe disqualified from taking part in the event.\r\n\u25CF 1 st\r and 2 nd\r round will be held online.\r\n\u25CF The participating entity has to solve the MCQ questions online according to\r\nthe rules provided.
+            \n\n 1st Round \n  \r\n\u25CF There will be 30 MCQ questions which a participating entity has to solve to\r\nthe best of the ability in 30 minutes.\r\n\u25CF The questions will contain questions from technology and business field.\r\n\u25CF The participating entity has to choose the correct option among the\r\nprovided option.\r\n\u25CF Top 10% of the participating entities will qualify for the second round\r\nbased on the points scored.
+            \n\n 2nd Round \n\r\n\u25CF There will be 20 MCQ question of harder level which will require the participating entities to have deeper knowledge about the technological and business field. The time limit of this round in 30 minutes. \n \u25CF The questions will be from technology and business field.The participating entity has to choose the correct option among the provided option.\n\u25CF The team scoring maximum in the 2nd\r round will be adjudged as winners.
+            \n\n Point System \n\r\n\u25CF For every correctly marked answer in the 1st and 2nd round, the participating entity will be awarded +4 points.\r\n\u25CF For every incorrectly marked answer in the 1st and 2nd round, the participating entity will be awarded -1 points.\r\n\u25CF Only in case of a draw among the top two teams in the 2nd round, that the time will be considered. The team taking the least time among the top two drawn teams will be adjudged as the winner.\r\n\u25CF In case of a dispute, the decision taken by the coordinating team will be final."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: 100 (per team of 3 or less)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 26th February (Sunday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="SWAROOP ACHARJEE 9674507568"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

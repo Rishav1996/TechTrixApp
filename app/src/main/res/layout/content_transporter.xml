@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Transporter"
+    tools:showIn="@layout/activity_transporter">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Transporting is a profitable business when it involves both land and water.
+Build a bot which can run both on land and water, and carry/push object along with it."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:text="PRIZE: CASH PRIZE OF ₹3000 + GOODIES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="ROBOTICS GENERAL RULES:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * Bots should be made in such a way that they run both on land and on water.\n
+* The machine would be checked for its safety before the run and will be disqualified if found unsafe for other participants. Refund of registration fee will not be provided.\n
+* Maximum of 2 team members are allowed to handle the bot. Other team members are not allowed to enter the arena. Failing which team will be disqualified.\n
+* The bot will be liable for disqualification if it causes any kind of damage to the arena.\n
+* The bot is allowed to slide the blocks/ball against the ground/water.\n
+* In case the bot gets stuck at any place and at any point of time, then the block/ball it is carrying (if any) will be placed to its initial position and the bot will be placed back to the start position. The blocks/balls correctly deposited will not be disturbed. The timer won’t be stopped during the process.\n
+* A maximum of 10 minutes (ten minutes) will be given for each team.\n
+* Teams can use both wired and wireless mechanism. For wired bots, the minimum length of the wire should be around 5 meters.\n
+* For wireless mechanism, it is mandatory to use dual frequency remote.\n
+* Participants are not allowed to use any readymade Lego products or any readymade gripping mechanism. Failing to abide will lead to instant disqualification."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:text="EVENT'S RULE:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="20dp"
+            android:textAllCaps="true"
+            android:text="Bot Specification "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/textColor"
+            android:textAllCaps="true"
+            android:text=" * 30 cm x 30 cm x 30 cm\n
+* A robot can extend to a dimension of 35 cm x 35 cm x 35 cm maximum (independently) once it crosses the start zone for some lifting/grabbing mechanism "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹150 (per team of 5 or less)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:linksClickable="true"
+            android:autoLink="phone"
+            android:text="RAJDEEP8981475751\n
+DEBMALLYA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.Verbose"
+    tools:showIn="@layout/activity_verbose">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Freedom is hammered out on the anvil of discussion, dissent and refute.
+            To oppugn or opine, that is the question. The annual debate is a platform to exhibit how well you can prove what you say. Every year, it becomes a crowning jewel of Techtrix, standing witness to the sharpest minds of the generation battle it out on stage, stating, refusing, agreeing or denying the motion set forth. Be a part of VERBOSE 2K17 and put your hours of practice to good use with the witty tongues!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT DETAILS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="PRIZE: CASH PRIZE OF ₹1500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="RULES AND REGULATIONS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="general rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text=" * The debate format is parliamentary.\n
+* Anyone under the age of 25 is allowed to participate.\n
+* School students, cross-college and cross-school teams are allowed to participate.\n
+* Each and every student must bring their ID-Cards which is mandatory.\n
+* A nominal registration fee of Rs. 60/- is required for each team to participate.\n
+* The motion for the debate will be decided based on a lottery 1 hour before the event begins.\n
+* Each participating team must consist of two members. One speaking 'for' and the other speaking 'against' the motion.\n
+* Each speaker will be allotted 4+1=5 minutes to put across his speech.\n
+* A reminder bell will be used at the fourth minute.\n
+* A question round will follow right after the completion of every speech. Two questions shall be allowed (One from the judge and one from the audience).\n
+* Exceeding the time limit will reflect upon scores.\n
+* The order of teams to debate shall be decided based on a lottery in the beginning.\n
+* Only Parliamentary language will be entertained. (no abusive language)\n
+* Obscenity and vulgarity in any form won’t be tolerated.\n
+* No props allowed on stage. Reading out from written materials will reflect upon scores.\n
+* Rules are subject to modification based on circumstances. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="scoring system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="These are the criteria on which the debate will be judged and scored:
+
+\n* Factual accuracy.
+\n* Arguments (not assertions) : You can’t convince anyone that gay marriage undermines traditional marriage just by saying so.  You have to lead the judge through the reasoning, showing causal connections.
+\n* Impact : You must tell the judge why your arguments matter.
+\n* Reasonableness : Don’t offer straw men or draw warrantless exaggerations.
+\n* Addressing your team member’s points.
+\n* Adhering to the time limit.
+\n* Confidence and overall presentation.
+
+\nA 10 point scale will be used to assign the scores with fractional values allowed. The scale will look like this:
+\n0--Blatantly offensive, person didn’t get up to speak, spit on you, etc.  (MUST BE JUSTIFIED)
+
+\n1-2--Extremely poor--barely coherent.  An extreme statement.
+
+\n3--Not too good--maybe a couple of good points, but generally unfocused and ineffective.
+
+\n4-5-–Low average and high average respectively--no major highs, but no major mistakes either.  Generally solid.
+
+\n6--Very good--compelling, intelligent, no noticeable mistakes.  A person who averages this score should be in the top ten speakers at the event.
+
+\n7--Exceptional--one of the best speeches you expect to be given at the event. A person who averages this should be in contention for a spot as one of the top three speakers at the event.
+
+\n8--Phenomenal--moved you to tears.  The best speech you ever expected to hear ever.  (MUST BE JUSTIFIED)
+
+\n9--Martin Luther King on a good day. A very rare case.
+
+\n10--Christ, Moses, and M.L.K. rolled up into one, on steroids.  No chance.  Never seen this.  (Actually, one of these existed once--began with “Let there be light.”  Perhaps you’ve heard of it?)  Forget about even thinking about believing you can get this. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="10dp"
+            android:text="Note : Rules are Subject to Change if Circumstances Demands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:text="REGISTRATION FEE: ₹60 per person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/textColor"
+            android:text="TIMING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:textColor="@color/textColor"
+            android:linksClickable="true"
+            android:autoLink="all"
+            android:text="Starts at 26th February (Sunday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="EVENT COORDINATOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/textColor"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="NISHTHA AGRAWAL 9883935557\n
+ADRESHA GHOSH 9433872317"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

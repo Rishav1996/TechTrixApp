@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="20dp"
+    android:background="@color/backColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="techtrix.example.com.techtrix.CounterStrike"
+    tools:showIn="@layout/activity_counter_strike">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text="Guns loaded, grenades charges....Shoot to KILL!\n
+Out there in the battlefield in a race against time, with brothers to die for, and a mission to complete..\n
+Have you chosen the best strategy for your squad? 'Cause it is a matter of do or die.\n
+In a fight for survival are you ready to fight when it matters the most?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:text="EVENT DETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="15sp"
+        android:text="PRIZE: TO BE DECLARED AFTER ROUND 1."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:text="RULES AND REGULATIONS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/textColor"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:text="GENERAL RULES:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text="* Competition Method: 5 vs. 5 (Team Play, 5 players per team)\n
+* Victory Condition: The first team to win 16 rounds is declared the winner. 15 matches per side.\n
+* Official Maps: De_Dust2, De_Inferno, De_Nuke, De_Train\n
+* There will be a toss to decide which map to play. Winner eliminates 2 maps and the opponent eliminates 1, remainder shall be played.\n
+* CT/T will be chosen by knife round.  \n
+* The Server will record the process of the match.\n
+* We may install third party program and/or join as an observer for tournament operations purposes, such as verifying match results or gathering match data.\n
+* Players should bring their own headphones if needed by them .They may also bring their own mouse and other joystick. Keyboard and mouse will be supplied to the players by us if needed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:text="GENERAL GAME SETTINGS:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text=" * Round Number: 30 Rounds (Max rounds format): Each Team plays 15 rounds as Terrorists and 15 rounds as CounterTerrorists.\n
+* Round Time: 1 minute 45 seconds.\n
+* Approved Grenade Amounts Per Round:\n
+    * Flash bangs: 2\n
+    * Grenades: 1\n
+    * Smoke Grenades: 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text="Note : Rules are Subject to Change if Circumstances Demands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/textColor"
+        android:text="Approved Launch Option Commands:\n
+• noforcemparms • noforcemaccel • noforcemspd • freq *** Default skins must be used.
+Any other use of map or program bugs can result in a warning at the minimum or loss by default for the
+offending team after deliberation and decision by the board of referees at its sole discretion.\n
+\n TOURNAMENT SERVER SETTINGS :\r\n\uF0B7 mp_autokick 0\r\n\uF0B7 mp_autocrosshair 0\r\n\uF0B7 mp_autoteambalance 0\r\n\uF0B7 mp_buytime 0.25\r\n\uF0B7 mp_consistency 1\r\n\uF0B7 mp_c4timer 37\r\n\uF0B7 mp_fadetoblack 1\r\n\uF0B7 mp_forcechasecam 2\r\n\uF0B7 mp_footsteps 1\r\n\uF0B7 mp_friendlyfire 1\r\n\uF0B7 mp_limitteams 10\r\n\uF0B7 mp_logdetail 3\r\n\uF0B7 mp_logmessages 1\r\n\uF0B7 mp_playerid 1\r\n\uF0B7 mp_timelimit 0\r\n\uF0B7 sv_aim 0\r\n\uF0B7 sv_airmove 1\r\n\uF0B7 sv_allowupload 0\r\n\uF0B7 sv_cheats 0\r\n\uF0B7 sv_clipmode 0\r\n\uF0B7 sv_gravity 800\r\n\uF0B7 sv_maxrate 5000\r\n\uF0B7 sv_maxunlag 0.5\r\n\uF0B7 sv_minupdaterate 101\r\n\uF0B7 sv_proxies 1\r\n\uF0B7 sv_send_resources 1\r\n\uF0B7 sv_stopspeed 75\r\n\uF0B7 sv_voiceenable 1\r\n\uF0B7 sv_unlagpush 0\r\n\uF0B7 allow_spectators 1\r\n\uF0B7 edgefriction 2\r\n\uF0B7 log on mp_flashlight 1\r\n\uF0B7 mp_forcecamera 2\r\n\uF0B7 mp_freezetime 15 \r\n\uF0B7 mp_hostagepenalty 0\r\n\uF0B7 mp_logecho 1\r\n\uF0B7 mp_logfile 1\r\n\uF0B7 mp_maxrounds 0\r\n\uF0B7 mp_roundtime 1.75\r\n\uF0B7 mp_tkpunish 0\r\n\uF0B7 sv_airaccelerate 10\r\n\uF0B7 sv_allowdownload 0\r\n\uF0B7 sv_alltalk 0\r\n\uF0B7 sv_clienttrace 1\r\n\uF0B7 sv_friction 4\r\n\uF0B7 sv_lan_rate 25000\r\n\uF0B7 sv_maxspeed 320\r\n\uF0B7 sv_maxupdaterate 101\r\n\uF0B7 sv_minrate 25000\r\n\uF0B7 sv_send_logos 1\r\n\uF0B7 sv_stepsize 18\r\n\uF0B7 sv_unlag 1\r\n\uF0B7 sv_unlagsamples 1\r\n\uF0B7 sys_ticrate 10000\r\n\uF0B7 decalfrequency 60\r\n\uF0B7 host_framerate 0\r\n\uF0B7 pausable 0.
+\n \n Unfair Practices Subject to Penalty :\r\n\uF0B7 Team members may communicate verbally if they are alive in the match or when all team\r\nmembers are dead.\r\n\uF0B7 The player is deemed dead when the screen is completely faded to black. If a bug occurs and the\r\nscreen doesn\u2019t fade to black, the player is deemed dead three seconds after he/she has fallen.\r\n\uF0B7 Binding Duck to scroll wheel is offensive.\r\n\uF0B7 C4 must be installed at a viewable location. Installing C4 at a location where a boost is required\r\nis allowed. \r\n\uF0B7 Silent C4 installation is considered bug play.\r\n\uF0B7 Any use of the flash bang bug will result in a -3 round score for the offending team. If the use of\r\nthe bug is decided as unintentional, the game continues as normal.\r\n\uF0B7 Use of unfair but available scripts (e.g. silentrun, attack+use, centerview script, norecoil script,\r\netc.) will have the offending team disqualified.\r\n\uF0B7 HLTV Proxy will join the game servers for Tournament Broadcast.\r\n\uF0B7 To test for HLTV flash bugs, players must follow the directions of the server.\r\n If disconnection occurs during a match:- If all the players cannot play due to an unintended,\r\nunforeseen accident such as server stoppage,\r\n\u2022 Before the 3rd round starts: restart the match.\r\n\u2022 After the 3rd round starts: Disconnected player must reconnect to the server. The round is\r\ncontinued by resuming, and if the disconnected player cannot connect to the server, all players\r\nmust wait during the freeze time after the round until the disconnected player connects to the\r\nserver. At this time, the match may continue with resuming. (Not a restart) \u2022 If up to 3 of all\r\nplayers are unintentionally disconnected: The score for that round is discarded. The game is\r\npaused after the round during the freeze time, and all players wait until the disconnected\r\nplayers are connected to the server. When all players are connected, the match may continue by\r\nresuming the game.\r\n\u2022 In the case of intentional disconnection, the server may decide to end the match with the\r\noffending team losing by forfeit.
+"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:textColor="@color/textColor"
+        android:text="REGISTRATION FEE: ₹250 (per team of 5 or less)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:text="TIMING"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/textColor"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:text="Starts at 25th February (Saturday)\n
+* On-Spot Registration\n
+* Show your interest in this event by registering here -> bit.ly/2l8Xnhn."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:padding="5dp"
+        android:textSize="25sp"
+        android:textColor="@color/textColor"
+        android:text="EVENT COORDINATOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:text="KAUSHIK"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
